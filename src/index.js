@@ -4,8 +4,8 @@ import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <>
-  <h1>Hello World!</h1>
+  <>ñ
+  <h1>Hello World! This is the VanCoders Project!</h1>
   {/* Put your components here (import) and put the code on the components folder. */}
   </>
 );
