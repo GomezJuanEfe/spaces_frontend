@@ -11,7 +11,11 @@ function OurClients () {
          </div>
 
          <div>
-             
+           <img src="https://d1fdloi71mui9q.cloudfront.net/SVDJcKMLRWSCGSKTjwVN_1976cda9e0a0a931b2ca2148ef63f2e8.png" alt="client3"/>
+         </div>
+
+         <div>
+           <img src="https://www.careersinafrica.com/wp-content/uploads/2013/07/orange-logo-vector.png" alt="client4"/>  
          </div>
      
         </section>
