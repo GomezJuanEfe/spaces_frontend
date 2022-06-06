@@ -12,6 +12,14 @@ code {
     monospace;
 }
 
+h2, h3 {
+  color: brown;
+}
+
+p {
+  color:darkslategrey;
+}
+
 .header {
   width: 100%;
   height: 80vh;
