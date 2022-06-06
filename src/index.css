@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h2, h3 {
+  color: brown;
+}
+
+p {
+  color:darkslategrey;
+}
+
+.header {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.about-section {
+  padding: 3%;
+  display: flex;
+}
+
+.about-head {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.about-photo {
+  width: 650px;
+  height: 400px;
+}
+
+.logo-section {
+  font-size: 18px;
+  padding: 2%;
+  display: flex;
+}
+
+.logo-section > div {
+  width: 50em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}

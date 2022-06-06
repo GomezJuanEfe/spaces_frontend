@@ -1,11 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import Header from './components/Header';
+import Logo from './components/Logo';
+import About from './components/About';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-  <h1>Hello World! This is the VanCoders Project!</h1>
-  {/* Put your components here (import) and put the code on the components folder. */}
+    <Header/>
+    <Logo/>
+    <About/>
   </>
 );
