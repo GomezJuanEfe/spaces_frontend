@@ -3,6 +3,8 @@ import Logo from "../components/Logo"
 import About from "../components/About"
 import OurClients from "../components/OurClients"
 import Navigation from "../components/Navigation"
+import Contact from "../components/Contact"
+import Footer from "../components/Footer"
 
 function Home() {
   return (
@@ -12,6 +14,8 @@ function Home() {
       <Logo />
       <About />
       <OurClients />
+      <Contact />
+      <Footer />
     </>
   )
 }
