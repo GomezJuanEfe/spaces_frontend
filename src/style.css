@@ -1,0 +1,19 @@
+.text{
+    width: 50%;
+    background-color: antiquewhite;
+    float: left;
+    align-items: flex-start;
+    color: black;
+    font-size: 20px;
+}
+.contact_form{
+    width: 50%;
+    float: right;
+    align-items: center;
+    background-color: antiquewhite;
+    color: black;
+}
+footer{
+    align-items: center;
+    color: black;
+}
