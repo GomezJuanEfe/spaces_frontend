@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import Contact from './components/Contact';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import App from './components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <>ñ
-  <h1>Hello World! This is the VanCoders Project!</h1>
-  {/* Put your components here (import) and put the code on the components folder. */}
+  <>
+      <Contact/>
+      <App/>
   </>
 );
