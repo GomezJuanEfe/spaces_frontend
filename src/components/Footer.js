@@ -1,5 +1,5 @@
 import "../style.css";
-function App () {
+function Footer () {
     <>
         <img/>facebook
         <img>instagram</img>
@@ -7,4 +7,4 @@ function App () {
         <address>8786 Vancouver,Downtown,BC</address>
     </>
 }
-export default App;
+export default Footer;
