@@ -17,7 +17,7 @@ function Login() {
     <>
     <section className="login">
       <h3>Log in</h3>
-        <form method="POST" action="http://localhost/FinalProject_phpCourse/login.php" onSubmit={(event) => handleSubmit(event)}>
+        <form method="POST" action="http://localhost/FinalProject_phpCourse/loginFail.php" onSubmit={(event) => handleSubmit(event)}>
         <input type="email" placeholder="Email address" name="userEmail"/>
         <input type="password" placeholder="Password" name="userPassword"/>
         <input type="submit" value="Submit" />
