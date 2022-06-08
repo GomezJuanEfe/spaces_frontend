@@ -16,54 +16,6 @@ code {
     monospace;
 }
 
-h2, h3 {
-  color: brown;
-}
-
-p {
-  color:darkslategrey;
-}
-
-.header {
-  width: 100%;
-  height: 80vh;
-  object-fit: cover;
-}
-
-.about-section {
-  padding: 3%;
-  display: flex;
-}
-
-.about-head {
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-.about-photo {
-  width: 650px;
-  height: 400px;
-}
-
-.logo-section {
-  font-size: 18px;
-  padding: 2%;
-  display: flex;
-}
-
-.logo-section > div {
-  width: 50em;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.logo {
-  width: 100px;
-  height: 100px;
-}
-
 /* NavBar */
 .navBar-top {
   padding: 20px 0;
@@ -119,10 +71,12 @@ a:hover {
   border-radius: 3px;
   box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.5);
 }
+
 .login h3 {
   color: #02acb8;
   text-align: center;
 }
+
 .login form {
   width: 100%;
   height: 80%;
@@ -131,12 +85,14 @@ a:hover {
   flex-flow: column nowrap;
   justify-content: space-evenly;
 }
+
 .login form input {
   height: 40px;
   padding: 0 30px;
   border-radius: 3px;
   font-size: 16px;
 }
+
 .login form input[type="submit"] {
   margin-top: 40px;
   background-color: #02acb8;
@@ -145,4 +101,55 @@ a:hover {
   font-size: 18px;
   border: none;
   cursor: pointer;
+}
+
+h2, h3 {
+  color: brown;
+}
+
+p {
+  color:darkslategrey;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  height: 78vh;
+  object-fit: cover;
+}
+
+/* Logo Section Below Header*/
+.logo-section {
+  font-size: 18px;
+  padding: 2%;
+  display: flex;
+}
+
+.logo-section > div {
+  width: 50em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+/* About Us Section */
+.about-section {
+  padding: 3%;
+  display: flex;
+}
+
+.about-head {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.about-photo {
+  width: 650px;
+  height: 400px;
 }

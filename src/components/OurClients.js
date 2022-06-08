@@ -3,7 +3,7 @@ function OurClients () {
         <>
         <section class="clients_logo">
          <div>
-             <img src="https://kwanjaiservices.com/wp-content/uploads/2020/01/sarin-city.png" alt="client1"/>
+            <img src="https://kwanjaiservices.com/wp-content/uploads/2020/01/sarin-city.png" alt="client1"/>
          </div>
          
          <div>
