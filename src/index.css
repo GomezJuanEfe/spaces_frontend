@@ -103,6 +103,55 @@ a:hover {
   cursor: pointer;
 }
 
+/* contact*/
+.text{
+  width: 50%;
+  background-color: white;
+  float: left;
+  align-items: flex-start;
+  color: brown;
+  font-size: 20px;
+}
+.text span{
+  color:#02acb8;
+}
+.contact_form{
+  width: 50%;
+  float: right;
+  align-items: center;
+  background-color: white;
+  color: #02acb8;
+}
+.contact_form input {
+  width: 90%;
+  height: 40px;
+  background: lightgray;
+  color: black;
+  font-size: 20px;
+}
+.contact_form button{
+  width: 20%;
+  height: 8vh;
+  color:black;
+  font-size: 20px;
+  background-color: #02acb8;
+}
+.text2{
+  color: black;
+}
+.footer{
+  background: black;
+  font-size: 20px;
+  width: 100%;
+  padding: 2%;
+  padding-left: 35%;
+  justify-content: center;
+}
+.footer p{
+  align-items: center;
+  color: white;
+}
+
 h2, h3 {
   color: brown;
 }
