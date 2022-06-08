@@ -103,6 +103,60 @@ a:hover {
   cursor: pointer;
 }
 
+/* clients part */
+.clients_index{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.clients_logo {
+  padding: 4%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.clients_logo > div{
+  width: 20em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clients {
+ width: 40vh;
+ height:30vh;
+}
+
+
+/* Clients review*/
+
+.review-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.reviews {
+  padding: 2px;
+  width: 13em;
+  height: 16em;
+}
+
+.profile{
+  display:flex;
+  padding: 5%;
+}
+
+.profile1,.profile2{
+  display: flex;
+}
+
+.profile2{
+  padding-left: 4%;
+}
+
 /* contact*/
 .text{
   width: 50%;
