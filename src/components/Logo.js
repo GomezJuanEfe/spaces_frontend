@@ -1,10 +1,12 @@
 function Logo() {
+    
+    let locNum = 4;
     return(
         <>
             <section class="logo-section">
                 <div>
                     <img src="https://cdn-icons-png.flaticon.com/512/67/67347.png" alt="Location" class="logo" />
-                    <h3>Locations</h3>
+                    <h3> <span>{locNum}</span> Locations</h3>
                     <p>Prime location for business to base an office</p>
                 </div>
 
