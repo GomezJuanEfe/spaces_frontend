@@ -1,5 +1,18 @@
 import "../index.css";
+import { useState } from "react";
+import $ from "jquery";
 function Contact(){
+  const handleSubmit = (event) => {
+    const regForm = $(event.target);
+    $.ajax({
+      type: "POST",
+      url: regForm.attr("Action"),
+      data: regForm.serialize(),
+      success(data) {
+        console.log(data);
+      }
+    });
+  }
     return(
         <>
         <div className={'text'}>
@@ -10,10 +23,14 @@ function Contact(){
          </p>
         </div>
         <div className={'contact_form'}>
-        <form  method="POST">
+        <form  method="POST" action="http://localhost/FinalProject_phpCourse/pages/users.php" onSubmit={(event) => handleSubmit(event)} >
           <input type="email" name="user_email" class placeholder="Type the user email: " require/>
           <br/>
           <input type="password" name="user_password" className="user_password" placeholder="Password" required/>
+          <br/>
+          <select name="user_roll">
+              <option value="costumer">Client</option>
+          </select>
           <br/>
           <input type="text" name="user_firstName" placeholder="Type user first name: " required/>
           <br/>
