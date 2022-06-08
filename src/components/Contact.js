@@ -5,7 +5,7 @@ function Contact(){
         <div className={'text'}>
         <h1>Contact us</h1>
           <p>
-            Regiter in our website to get the real experience
+            Register to our website to get real experience
           </p>
         </div>
         <div className={'contact_form'}>
