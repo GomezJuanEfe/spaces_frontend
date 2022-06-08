@@ -1,7 +1,7 @@
 import "../index.css";
 function Footer () {
     return (
-        <div className="footer">
+        <div className="footer" id="footer">
         <p>
            8786 Vancouver,Downtown,BC
            phone:+16047839472
