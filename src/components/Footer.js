@@ -1,10 +1,15 @@
-import "../style.css";
+import "../index.css";
 function Footer () {
-    <>
-        <img/>facebook
-        <img>instagram</img>
-        <img>twitter</img>
-        <address>8786 Vancouver,Downtown,BC</address>
-    </>
+    return (
+        <div className="footer">
+        <p>
+           8786 Vancouver,Downtown,BC
+           phone:+16047839472
+        </p>
+        <p>
+           2022 &copy; All rights reserved for Vancoders
+        </p>
+      </div>
+      )
 }
 export default Footer;
