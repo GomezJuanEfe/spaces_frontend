@@ -1,10 +1,20 @@
+import { useEffect, useState } from "react";
+import fetchData from "../utils/fetchData";
+
 function Logo() {
+    const[locNum, setLocNum] = useState("");
+    useEffect(() => {
+        fetchData('http://localhost/FinalProject_phpCourse/repports/NumOfLoc.php', (err, data) => {
+            if (err) return console.log(err);
+            setLocNum(data);
+        });
+    }, [])
     return(
         <>
             <section class="logo-section">
                 <div>
                     <img src="https://cdn-icons-png.flaticon.com/512/67/67347.png" alt="Location" class="logo" />
-                    <h3>Locations</h3>
+                    <h3> <span>{locNum}</span> Locations</h3>
                     <p>Prime location for business to base an office</p>
                 </div>
 

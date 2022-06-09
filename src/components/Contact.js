@@ -28,7 +28,7 @@ function Contact(){
           <input type="password" name="user_password" className="user_password" placeholder="Password" required/>
           <br/>
           <select name="user_roll">
-              <option value="costumer">Client</option>
+              <option value="customer">Client</option>
           </select>
           <br/>
           <input type="text" name="user_firstName" placeholder="Type user first name: " required/>
