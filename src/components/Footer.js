@@ -3,11 +3,11 @@ function Footer () {
     return (
         <div className="footer" id="footer">
         <p>
-           8786 Vancouver,Downtown,BC
-           phone:+16047839472
+           8786 Vancouver, British Columbia | 
+           Phone:+16047839472
         </p>
         <p>
-           2022 &copy; All rights reserved for Vancoders
+           2022 &copy; VanCoders All Rights Reserved
         </p>
       </div>
       )
