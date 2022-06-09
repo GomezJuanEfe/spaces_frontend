@@ -24,7 +24,6 @@ function OurClients () {
          <div>
            <img src="https://www.careersinafrica.com/wp-content/uploads/2013/07/orange-logo-vector.png" alt="client4" class="clients"/>  
          </div>
-     
         </section>
         
 
@@ -38,29 +37,21 @@ function OurClients () {
                 <div class="profile1">
                     <img src="https://images.iphonephotographyschool.com/24755/portrait-photography.jpg" alt="review1" class="reviews"/>
                     <div>
-                        <p>“Having my Spaces On Demand app makes it very flexible to meet with people I need to see in different cities.”</p>
+                        <p>“Having a virtual office at Spaces makes it very flexible to meet with people I need to see in different cities.”</p>
                         <p>Hamel</p>
                     </div>
                 </div>
 
                 <div class="profile2">
                     <img src="https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg" alt="review2" class="reviews"/>
-            
                     <div>
-                    <p>"The offices look professional and feel professional. It’s a great alternative to having my own office.” </p>
-                    <p>Jenny</p>
+                        <p>"The offices look professional and feel professional. It’s a great alternative to having my own office.” </p>
+                        <p>Jenny</p>
                     </div>
                 </div>
             </article>
-
-        </section> 
-
+        </section>
         </>
-    
-
-    
-      
-    
 )}
 
 export default OurClients;

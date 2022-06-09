@@ -18,27 +18,24 @@ function Contact(){
           <div className={'text'}>
             <h1>Contact us</h1>
             <p>
-              Register to our website to get real experience
+              Register. Stay connected. <br/> Get involved with us on our social media platforms.
             </p>
           </div>
           <div className={'text'} id="contact">
-              <h1>Connect with us</h1>
-              <span>Register in our website to get the real experience: </span>
               <p>
-                if you register you can book spaces to start your Co-op process.
+                Register and book our Spaces today.
               </p>
           </div>
           <div className="text2">
             <p>
-              Dont forget to follow us in a social media to see all the news
-              about us
+                Get involved on our social media platforms.
             </p>
           <ul>
             <li>
-              <a href="https://www.facebook.com" target={'_blank'}>facebook</a>
+              <a href="https://www.facebook.com" target={'_blank'}>Facebook</a>
             </li>
             <li>
-              <a href="https://www.instagram.com" target={'_blank'}>instagram</a>
+              <a href="https://www.instagram.com" target={'_blank'}>Instagram</a>
             </li>
             <li>
               <a href="https://www.twitter.com" target={'_blank'}>Twitter</a>
@@ -47,23 +44,23 @@ function Contact(){
           </div>
           <div className={'contact_form'}>
             <form method="POST" action="http://localhost/FinalProject_phpCourse/pages/manager/registerUserFront.php" onSubmit={(event) => handleSubmit(event)} >
-              <input type="email" name="user_email" class placeholder="Type the user email: " require />
+              <input type="email" name="user_email" class placeholder="Email*" require />
               <br />
-              <input type="password" name="user_password" className="user_password" placeholder="Password" required />
+              <input type="password" name="user_password" className="user_password" placeholder="Password*" required />
               <br />
               <select name="user_roll">
                 <option value="customer">Client</option>
               </select>
               <br />
-              <input type="text" name="user_firstName" placeholder="Type user first name: " required />
+              <input type="text" name="user_firstName" placeholder="First name*" required />
               <br />
-              <input type="text" name="user_lastName" placeholder="Type user last name: " required />
+              <input type="text" name="user_lastName" placeholder="Last name*" required />
               <br />
-              <input type="text" name="user_address" placeholder="Type user address: " />
+              <input type="text" name="user_address" placeholder="Address" />
               <br />
-              <input type="text" name="User_phone" placeholder="Type user phone number: " />
+              <input type="text" name="User_phone" placeholder="Phone number" />
               <br />
-              <button type="submit"> Register User</button>
+              <button type="submit">Register</button>
             </form>
           </div>
         </section>
