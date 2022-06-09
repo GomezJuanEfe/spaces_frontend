@@ -1,6 +1,14 @@
+import { useEffect, useState } from "react";
+import fetchData from "../utils/fetchData";
+
 function Logo() {
-    
-    let locNum = 4;
+    const[locNum, setLocNum] = useState("");
+    useEffect(() => {
+        fetchData('http://localhost/FinalProject_phpCourse/repports/NumOfLoc.php', (err, data) => {
+            if (err) return console.log(err);
+            setLocNum(data);
+        });
+    }, [])
     return(
         <>
             <section class="logo-section">
