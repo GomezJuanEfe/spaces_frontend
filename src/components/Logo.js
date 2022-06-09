@@ -1,4 +1,6 @@
 function Logo() {
+
+    let officeNum = 4;
     return(
         <>
             <section class="logo-section">
@@ -10,7 +12,7 @@ function Logo() {
 
                 <div>
                     <img src="https://img.icons8.com/ios/500/room.png" alt="Office" class="logo" />
-                    <h3>Offices</h3>
+                    <h3> <span>{officeNum}</span> Offices</h3>
                     <p>Flexible spaces that meet your needs</p>
                 </div>
 
