@@ -21,7 +21,7 @@ function Contact(){
           </p>
         <div className={'text'} id="contact">
         <h1>Connect with us</h1>
-         <span>Regiter in our website to get the real experience: </span>
+         <span>Register in our website to get the real experience: </span>
          <p>
            if you register you can book spaces to start your Co-op process.
          </p>
