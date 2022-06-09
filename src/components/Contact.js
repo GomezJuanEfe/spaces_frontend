@@ -14,6 +14,11 @@ function Contact(){
   }
     return(
         <>
+        <div className={'text'}>
+        <h1>Contact us</h1>
+          <p>
+            Register to our website to get real experience
+          </p>
         <div className={'text'} id="contact">
         <h1>Connect with us</h1>
          <span>Regiter in our website to get the real experience: </span>

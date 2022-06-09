@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import fetchData from "../utils/fetchData";
 
 function Logo() {
+
+    let officeNum = 4;
     const[locNum, setLocNum] = useState("");
     useEffect(() => {
         fetchData('http://localhost/FinalProject_phpCourse/repports/NumOfLoc.php', (err, data) => {
@@ -20,7 +22,7 @@ function Logo() {
 
                 <div>
                     <img src="https://img.icons8.com/ios/500/room.png" alt="Office" class="logo" />
-                    <h3>Offices</h3>
+                    <h3> <span>{officeNum}</span> Offices</h3>
                     <p>Flexible spaces that meet your needs</p>
                 </div>
 
