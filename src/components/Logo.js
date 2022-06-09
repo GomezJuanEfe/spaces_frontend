@@ -2,10 +2,8 @@ import { useEffect, useState } from "react";
 import fetchData from "../utils/fetchData";
 
 function Logo() {
-<<<<<<< HEAD
 
     let officeNum = 4;
-=======
     const[locNum, setLocNum] = useState("");
     useEffect(() => {
         fetchData('http://localhost/FinalProject_phpCourse/repports/NumOfLoc.php', (err, data) => {
@@ -13,7 +11,6 @@ function Logo() {
             setLocNum(data);
         });
     }, [])
->>>>>>> c7177196d57c4349cc6fc367c9bdae56a2cfa68f
     return(
         <>
             <section class="logo-section">

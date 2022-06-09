@@ -14,20 +14,17 @@ function Contact(){
   }
     return(
         <>
-<<<<<<< HEAD
         <div className={'text'}>
         <h1>Contact us</h1>
           <p>
             Register to our website to get real experience
           </p>
-=======
         <div className={'text'} id="contact">
         <h1>Connect with us</h1>
          <span>Regiter in our website to get the real experience: </span>
          <p>
            if you register you can book spaces to start your Co-op process.
          </p>
->>>>>>> c7177196d57c4349cc6fc367c9bdae56a2cfa68f
         </div>
         <div className={'contact_form'}>
         <form  method="POST" action="http://localhost/FinalProject_phpCourse/pages/manager/registerUserFront.php" onSubmit={(event) => handleSubmit(event)} >
